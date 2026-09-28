@@ -82,47 +82,52 @@ function SolidButton({ children, href, onClick, dark = false, testId }: { childr
   return <button type="button" className={className} onClick={onClick} data-testid={testId}>{children}<ArrowDownRight size={16} /></button>;
 }
 
-function VehicleStage() {
+function DashboardStage() {
   return (
-    <div className="vehicle-stage" aria-label="NX Rental vehicle operations visual">
-      <div className="stage-grid" />
-      <div className="stage-sun" />
-      <div className="stage-label stage-label-top"><span className="stage-dot" />Live fleet / 08:42</div>
-      <div className="stage-dashboard" aria-label="NX Rental dashboard preview">
-        <div className="stage-dashboard-head">
-          <span><PanelTop size={12} />NX Rental dashboard</span>
-          <b>Today</b>
+    <div className="dashboard-stage" aria-label="NX Rental dashboard preview">
+      <aside className="dashboard-sidebar">
+        <div className="dashboard-brand"><span className="dashboard-brand-mark">NX</span><b>Rental</b></div>
+        <nav className="dashboard-sidebar-nav" aria-label="Dashboard sections">
+          <span className="dashboard-nav-item is-active"><PanelTop size={11} />Dashboard</span>
+          <span className="dashboard-nav-item"><CarFront size={11} />Vehicles</span>
+          <span className="dashboard-nav-item"><CalendarDays size={11} />Bookings</span>
+          <span className="dashboard-nav-item"><Users size={11} />Customers</span>
+          <span className="dashboard-nav-item"><CircleDollarSign size={11} />Payments</span>
+          <span className="dashboard-nav-item"><BarChart3 size={11} />Reports</span>
+          <span className="dashboard-nav-item"><SlidersHorizontal size={11} />Availability</span>
+        </nav>
+        <div className="dashboard-sidebar-rule" />
+        <span className="dashboard-sidebar-label">Fleet management</span>
+        <span className="dashboard-nav-item"><PackageCheck size={11} />Maintenance</span>
+        <span className="dashboard-nav-item"><SlidersHorizontal size={11} />Settings</span>
+        <div className="dashboard-upgrade"><Sparkles size={13} /><b>Upgrade to Pro</b><small>More analytics for your team.</small><span>Upgrade now <ArrowRight size={10} /></span></div>
+      </aside>
+
+      <div className="dashboard-main">
+        <div className="dashboard-topbar">
+          <div className="dashboard-search"><Search size={11} /><span>Search vehicles, bookings, customers...</span></div>
+          <div className="dashboard-user"><span className="dashboard-notification"><CircleDollarSign size={11} /></span><span className="dashboard-avatar">A</span><span className="dashboard-user-name"><b>Aarav Sharma</b><small>Admin</small></span><span className="dashboard-chevron">⌄</span></div>
         </div>
-        <div className="stage-dashboard-metrics">
-          <div><small>Active rentals</small><strong>18</strong></div>
-          <div><small>Available</small><strong>12</strong></div>
+        <div className="dashboard-heading">
+          <div><h3>Welcome back, Aarav!</h3><p>Here's an overview of your rental business.</p></div>
+          <div className="dashboard-date"><CalendarDays size={10} /><span>Sep 28, 2026 — Oct 4, 2026</span><b>⌄</b></div>
         </div>
-        <div className="stage-dashboard-row">
-          <span>Bookings today</span>
-          <b>24</b>
+        <div className="dashboard-stat-grid">
+          <div className="dashboard-stat"><span className="dashboard-stat-icon is-purple"><CarFront size={14} /></span><span><small>Total vehicles</small><strong>42</strong><em>↗ 12%</em></span><i className="dashboard-sparkline spark-purple" /></div>
+          <div className="dashboard-stat"><span className="dashboard-stat-icon is-green"><CalendarDays size={14} /></span><span><small>Active bookings</small><strong>18</strong><em>↗ 8%</em></span><i className="dashboard-sparkline spark-green" /></div>
+          <div className="dashboard-stat"><span className="dashboard-stat-icon is-blue"><Users size={14} /></span><span><small>Total customers</small><strong>214</strong><em>↗ 18%</em></span><i className="dashboard-sparkline spark-blue" /></div>
+          <div className="dashboard-stat"><span className="dashboard-stat-icon is-pink"><CircleDollarSign size={14} /></span><span><small>Revenue this month</small><strong>₹1,24,500</strong><em>↗ 24%</em></span><i className="dashboard-sparkline spark-pink" /></div>
         </div>
-        <div className="stage-dashboard-progress"><i /></div>
+        <div className="dashboard-insights">
+          <div className="dashboard-panel revenue-panel"><div className="dashboard-panel-head"><b>Revenue overview</b><span>Monthly⌄</span></div><div className="dashboard-bars"><i /><i /><i /><i /><i /><i /><i /></div><div className="dashboard-axis"><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span></div></div>
+          <div className="dashboard-panel ring-panel"><div className="dashboard-panel-head"><b>Booking status</b></div><div className="dashboard-ring-wrap"><div className="dashboard-ring"><strong>18</strong><small>Active</small></div><ul><li><i className="ring-green" />Confirmed <b>60%</b></li><li><i className="ring-yellow" />Pending <b>20%</b></li><li><i className="ring-blue" />Completed <b>15%</b></li><li><i className="ring-pink" />Cancelled <b>5%</b></li></ul></div></div>
+          <div className="dashboard-panel ring-panel"><div className="dashboard-panel-head"><b>Vehicle availability</b></div><div className="dashboard-ring-wrap"><div className="dashboard-ring availability-ring"><strong>42</strong><small>Total</small></div><ul><li><i className="ring-green" />Available <b>28</b></li><li><i className="ring-blue" />Booked <b>10</b></li><li><i className="ring-yellow" />Maintenance <b>3</b></li><li><i className="ring-pink" />Unavailable <b>1</b></li></ul></div></div>
+        </div>
+        <div className="dashboard-lower">
+          <div className="dashboard-panel bookings-panel"><div className="dashboard-panel-head"><b>Recent bookings</b><a href="#business">View all <ArrowRight size={9} /></a></div><div className="dashboard-table-head"><span>#</span><span>Customer</span><span>Vehicle</span><span>Pickup — Drop</span><span>Status</span><span>Amount</span></div><div className="dashboard-booking-row"><span>RB001</span><b>PK <small>Priya Khurana</small></b><span>Hyundai i20</span><span>Sep 28 — Sep 30<small>Indore</small></span><em className="status-confirmed">Confirmed</em><strong>₹4,800</strong></div><div className="dashboard-booking-row"><span>RB002</span><b>AR <small>Amit Rajput</small></b><span>Mahindra Thar</span><span>Sep 27 — Oct 1<small>Bhopal</small></span><em className="status-pending">Pending</em><strong>₹12,000</strong></div><div className="dashboard-booking-row"><span>RB003</span><b>SK <small>Sana Khan</small></b><span>Honda Activa</span><span>Sep 27 — Sep 28<small>Indore</small></span><em className="status-completed">Completed</em><strong>₹800</strong></div></div>
+          <div className="dashboard-side-panels"><div className="dashboard-panel quick-panel"><div className="dashboard-panel-head"><b>Quick actions</b></div><div className="dashboard-quick-grid"><span><CarFront size={11} />Add vehicle <ArrowRight size={9} /></span><span><CalendarDays size={11} />New booking <ArrowRight size={9} /></span><span><Users size={11} />Add customer <ArrowRight size={9} /></span><span><BarChart3 size={11} />Generate report <ArrowRight size={9} /></span></div></div><div className="dashboard-panel upcoming-panel"><div className="dashboard-panel-head"><b>Upcoming bookings</b><a href="#business">View all <ArrowRight size={9} /></a></div><div className="dashboard-upcoming-row"><CarFront size={15} /><span><b>Mahindra Thar</b><small>Rohit Mehta · Tomorrow</small></span><em className="status-confirmed">Confirmed</em></div><div className="dashboard-upcoming-row"><Bike size={15} /><span><b>Honda Activa</b><small>Kavya Singh · Tomorrow</small></span><em className="status-pending">Pending</em></div></div></div>
+        </div>
       </div>
-      <div className="vehicle-shadow" />
-      <div className="vehicle">
-        <div className="vehicle-roof" />
-        <div className="vehicle-window vehicle-window-left" />
-        <div className="vehicle-window vehicle-window-right" />
-        <div className="vehicle-hood" />
-        <div className="vehicle-lamp" />
-        <div className="vehicle-wheel vehicle-wheel-left"><span /></div>
-        <div className="vehicle-wheel vehicle-wheel-right"><span /></div>
-      </div>
-      <div className="stage-route"><span>BOOKING</span><MoveRight size={14} /><span>CONFIRMED</span><b>3 days</b></div>
-      <div className="stage-card stage-card-booking">
-        <span className="mini-icon"><CalendarDays size={14} /></span>
-        <span><b>New booking</b><small>Riley · 3 days</small></span>
-        <Check size={16} className="stage-check" />
-      </div>
-      <div className="stage-card stage-card-rate">
-        <small>Utilization today</small><strong>78.4%</strong><span className="rate-line"><i /></span>
-      </div>
-      <div className="stage-label stage-label-bottom">01 / 05 &nbsp; OPERATIONS IN MOTION</div>
     </div>
   );
 }
@@ -179,7 +184,7 @@ function Home() {
               </div>
                <div className="hero-note"><span className="hero-note-rule" />For rental businesses and customers.</div>
             </div>
-            <div className="hero-visual reveal reveal-delay-one"><VehicleStage /></div>
+            <div className="hero-visual reveal reveal-delay-one"><DashboardStage /></div>
           </div>
           <div className="hero-ticker" aria-label="Platform capabilities">
             <div className="ticker-track">
