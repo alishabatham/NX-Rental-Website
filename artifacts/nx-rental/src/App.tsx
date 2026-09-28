@@ -280,7 +280,6 @@ function Home() {
               </div>
               <div className={`category-feature category-feature-${activeVehicle.color}`}>
                 <div className="category-feature-top"><span>AVAILABLE NEAR YOU</span><span className="category-live"><i />LIVE</span></div>
-                <div className="category-illustration"><div className="category-circle" /><div className="category-car"><span /><span /><span /></div></div>
                 <div className="category-feature-bottom"><div><h3>{activeVehicle.label}</h3><p>{activeVehicle.description}</p></div><div className="category-price">{activeVehicle.meta}<ArrowRight size={16} /></div></div>
               </div>
             </div>

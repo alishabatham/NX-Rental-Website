@@ -986,6 +986,9 @@ h1 em, h2 em, .solution-panel h3 span, .contact-inner h2 span, .about-content h2
 @keyframes rise-in { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes modal-in { from { opacity: 0; } to { opacity: 1; } }
 
+.category-feature { min-height: 250px; }
+.category-illustration { display: none; }
+
 @media (max-width: 900px) {
   .nx-container { width: min(100% - 40px, 680px); }
   .nx-nav { gap: 18px; margin-left: 25px; }.nx-nav a { font-size: 11px; }.header-login { display: none; }
@@ -1016,7 +1019,8 @@ h1 em, h2 em, .solution-panel h3 span, .contact-inner h2 span, .about-content h2
   .ecosystem-heading { display: block; }.ecosystem-heading h2 { margin: 20px 0; }.ecosystem-grid { grid-template-columns: 1fr 1fr; margin-top: 48px; }.ecosystem-card { min-height: 215px; padding: 18px; }.ecosystem-card h3 { margin-top: 40px; font-size: 15px; }.ecosystem-card p { font-size: 11px; }.ecosystem-number { top: 20px; right: 18px; }
   .contact-section { padding: 90px 0 67px; }.contact-inner h2 { font-size: clamp(3.5rem, 16vw, 5.4rem); }.contact-inner .nx-button { width: 100%; }.contact-meta { flex-wrap: wrap; gap: 10px; margin-top: 53px; }.contact-meta i { display: none; }.contact-rules { display: none; }
   .footer-top { grid-template-columns: 1fr; gap: 35px; padding-top: 45px; padding-bottom: 45px; }.footer-top-link { grid-column: auto; grid-row: auto; justify-self: start; }.footer-links { grid-column: auto; }.footer-bottom { align-items: start; flex-direction: column; gap: 12px; }.footer-bottom div { gap: 13px; }
-  .request-modal { padding: 34px 23px 28px; }.request-modal h2 { font-size: 37px; }
+   .request-modal { padding: 34px 23px 28px; }.request-modal h2 { font-size: 37px; }
+   .category-feature { min-height: 225px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
