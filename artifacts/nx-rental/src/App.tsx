@@ -88,6 +88,21 @@ function VehicleStage() {
       <div className="stage-grid" />
       <div className="stage-sun" />
       <div className="stage-label stage-label-top"><span className="stage-dot" />Live fleet / 08:42</div>
+      <div className="stage-dashboard" aria-label="NX Rental dashboard preview">
+        <div className="stage-dashboard-head">
+          <span><PanelTop size={12} />NX Rental dashboard</span>
+          <b>Today</b>
+        </div>
+        <div className="stage-dashboard-metrics">
+          <div><small>Active rentals</small><strong>18</strong></div>
+          <div><small>Available</small><strong>12</strong></div>
+        </div>
+        <div className="stage-dashboard-row">
+          <span>Bookings today</span>
+          <b>24</b>
+        </div>
+        <div className="stage-dashboard-progress"><i /></div>
+      </div>
       <div className="vehicle-shadow" />
       <div className="vehicle">
         <div className="vehicle-roof" />

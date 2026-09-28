@@ -682,6 +682,96 @@ h1 em, h2 em, .solution-panel h3 span, .contact-inner h2 span, .about-content h2
 .stage-label-bottom { right: 25px; bottom: 22px; color: hsl(39 38% 96% / 45%); }
 .stage-dot, .category-live i { display: inline-block; width: 6px; height: 6px; margin-right: 7px; border-radius: 50%; background: var(--orange); }
 
+.stage-dashboard {
+  position: absolute;
+  z-index: 5;
+  top: 58px;
+  right: 25px;
+  width: 218px;
+  padding: 13px;
+  border: 1px solid hsl(39 38% 96% / 20%);
+  color: var(--paper);
+  background: hsl(218 30% 15% / 88%);
+  box-shadow: 0 14px 25px hsl(218 34% 7% / 18%);
+  backdrop-filter: blur(8px);
+}
+
+.stage-dashboard-head,
+.stage-dashboard-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.stage-dashboard-head {
+  padding-bottom: 10px;
+  border-bottom: 1px solid hsl(39 38% 96% / 14%);
+  color: hsl(39 38% 96% / 78%);
+  font-family: var(--app-font-mono);
+  font-size: 8px;
+  letter-spacing: .04em;
+}
+
+.stage-dashboard-head span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.stage-dashboard-head svg { color: var(--orange); }
+.stage-dashboard-head b { color: hsl(39 38% 96% / 45%); font-weight: 400; }
+
+.stage-dashboard-metrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+.stage-dashboard-metrics div {
+  padding: 9px;
+  background: hsl(39 38% 96% / 8%);
+}
+
+.stage-dashboard-metrics small,
+.stage-dashboard-metrics strong {
+  display: block;
+}
+
+.stage-dashboard-metrics small {
+  color: hsl(39 38% 96% / 52%);
+  font-size: 8px;
+}
+
+.stage-dashboard-metrics strong {
+  margin-top: 5px;
+  color: var(--paper);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -.06em;
+}
+
+.stage-dashboard-row {
+  color: hsl(39 38% 96% / 61%);
+  font-size: 9px;
+}
+
+.stage-dashboard-row b { color: var(--orange); font-weight: 500; }
+
+.stage-dashboard-progress {
+  height: 3px;
+  margin-top: 8px;
+  background: hsl(39 38% 96% / 14%);
+}
+
+.stage-dashboard-progress i {
+  display: block;
+  width: 72%;
+  height: 100%;
+  background: var(--orange);
+}
+
 .vehicle-shadow {
   position: absolute;
   bottom: 123px;
@@ -795,7 +885,7 @@ h1 em, h2 em, .solution-panel h3 span, .contact-inner h2 span, .about-content h2
   .nx-container { width: calc(100% - 36px); }
   .nx-header-inner { height: 70px; }.header-actions > .nx-button { display: none; }.mobile-menu-button { display: grid; place-items: center; width: 38px; height: 38px; border: 0; color: var(--ink); background: transparent; cursor: pointer; }
   .nx-nav { position: absolute; top: 70px; right: 18px; left: 18px; display: none; flex-direction: column; align-items: stretch; gap: 0; margin: 0; padding: 8px; border: 1px solid var(--line); background: var(--paper-bright); box-shadow: 0 15px 30px hsl(218 30% 15% / 10%); }.nx-nav-open { display: flex; }.nx-nav a { padding: 15px; border-bottom: 1px solid var(--line); }.nx-nav a:last-of-type { border-bottom: 0; }.mobile-nav-cta { display: block; padding: 10px 0 0; }.mobile-nav-cta .nx-button { width: 100%; }
-  .hero-grid { padding-top: 105px; }.hero-copy h1 { font-size: clamp(3.4rem, 16vw, 5.2rem); }.hero-lead { font-size: 14px; }.hero-actions { align-items: stretch; flex-direction: column; }.hero-actions .nx-button { width: 100%; }.vehicle-stage { min-height: 365px; }.stage-sun { top: 49px; right: -22px; width: 145px; height: 145px; }.vehicle { bottom: 110px; left: 9%; width: 79%; transform: scale(.84) skew(-7deg); transform-origin: bottom left; }.vehicle-shadow { bottom: 84px; }.stage-card-rate { right: 13px; bottom: 120px; }.stage-card-booking { top: 80px; left: 13px; }.stage-route { right: 15px; bottom: 60px; }.stage-label-bottom { right: 13px; bottom: 16px; font-size: 8px; }
+   .hero-grid { padding-top: 105px; }.hero-copy h1 { font-size: clamp(3.4rem, 16vw, 5.2rem); }.hero-lead { font-size: 14px; }.hero-actions { align-items: stretch; flex-direction: column; }.hero-actions .nx-button { width: 100%; }.vehicle-stage { min-height: 365px; }.stage-sun { top: 49px; right: -22px; width: 145px; height: 145px; }.stage-dashboard { top: 15px; right: 13px; width: 190px; padding: 10px; }.stage-dashboard-metrics { padding: 9px 0; }.stage-dashboard-metrics strong { font-size: 17px; }.vehicle { bottom: 110px; left: 9%; width: 79%; transform: scale(.84) skew(-7deg); transform-origin: bottom left; }.vehicle-shadow { bottom: 84px; }.stage-card-rate { right: 13px; bottom: 120px; }.stage-card-booking { top: 80px; left: 13px; }.stage-route { right: 15px; bottom: 60px; }.stage-label-bottom { right: 13px; bottom: 16px; font-size: 8px; }
   .trust-grid { grid-template-columns: 1fr; }.trust-intro { grid-column: auto; }.trust-item { min-height: 81px; border-right: 0; border-bottom: 1px solid var(--line); }.trust-item:last-child { border-bottom: 0; }
   .about-section, .solutions-section, .business-section, .customer-section, .benefits-section, .ecosystem-section { padding: 88px 0; }.about-grid { grid-template-columns: 1fr; gap: 34px; }.about-rail { display: none; }.about-content { grid-column: auto; }.about-content h2 { font-size: clamp(2.7rem, 13vw, 4.2rem); }.about-signal { grid-column: auto; width: min(100%, 290px); margin: 30px auto 0; }.signal-node-right { right: -31px; }.signal-node-left { left: -30px; }
   .section-heading-row h2, .business-heading h2, .ecosystem-heading h2 { font-size: clamp(2.9rem, 13vw, 4.3rem); }.solution-panels { grid-template-columns: 1fr; }.solution-panel { min-height: 500px; padding: 24px; }.panel-visual { right: 24px; left: 24px; }.solution-panel h3 { margin-top: 62px; }
