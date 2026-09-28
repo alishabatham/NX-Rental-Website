@@ -1,0 +1,556 @@
+Bilkul bhai. Ab **NX Rental ki website ka detailed section-wise blueprint** lock karte hain. Isko main jaan-bujhkar **single-page, professional, simple aur genuine** rakh raha hoon — koi unnecessary corporate/big SaaS website nahi.
+
+NX Rental ka core message har jagah consistent rahega:
+
+> **Complete Vehicle Rental Ecosystem**
+> **Management System + Marketplace**
+
+---
+
+# 🚗 NX RENTAL — SINGLE PAGE WEBSITE
+
+## 01 — HEADER / NAVBAR
+
+### Purpose
+
+Visitor ko instantly brand aur website ke main sections samajh aaye.
+
+### Left
+
+**NX Rental Logo**
+
+### Navigation
+
+* Home
+* About
+* Management
+* Marketplace
+* Features
+* Contact
+
+### Right CTA
+
+**Explore Vehicles**
+
+Optional second CTA:
+
+**For Rental Businesses**
+
+### Design
+
+* Clean white/light navbar
+* Sticky on scroll
+* Minimal
+* No unnecessary dropdowns
+
+---
+
+# 02 — HERO SECTION
+
+Ye **sabse important section** hai, kyunki isi se 5–10 seconds mein NX Rental ka concept samajhna chahiye.
+
+### Main Heading
+
+# **Manage Your Rentals. Reach More Customers.**
+
+### Supporting Text
+
+> NX Rental brings vehicle rental management and vehicle discovery together in one complete digital ecosystem — helping rental businesses manage their operations and customers discover and book vehicles with ease.
+
+### Primary CTA
+
+**Explore Vehicles →**
+
+### Secondary CTA
+
+**Manage Your Rental Business →**
+
+### Small positioning line
+
+**MANAGEMENT SYSTEM • MARKETPLACE**
+
+### Hero Visual
+
+Right side par ideally ek combined visual:
+
+**Vehicle marketplace interface**
++
+**Rental management dashboard**
+
+Ya:
+
+Multiple vehicle cards → NX Rental platform → dashboard.
+
+### Hero ka objective
+
+Visitor ko immediately samajh aaye:
+
+> **NX Rental is not just a vehicle booking website.**
+
+It's both:
+
+**For Businesses → Management**
+
+**For Customers → Marketplace**
+
+---
+
+# 03 — ABOUT NX RENTAL
+
+### Heading
+
+# **The Complete Vehicle Rental Ecosystem**
+
+### Description
+
+> NX Rental is a digital platform built for the vehicle rental industry, connecting rental businesses and customers through one integrated ecosystem.
+
+> Rental businesses can manage vehicles, bookings, customers and rental operations, while customers can discover available vehicles and connect with rental providers through the marketplace.
+
+### 3 Small Highlights
+
+**For Rental Businesses**
+Manage your rental operations.
+
+**For Customers**
+Discover and book vehicles.
+
+**One Ecosystem**
+Connect businesses and customers.
+
+### Visual
+
+Ek side:
+
+**NX Rental ecosystem diagram**
+
+```text
+Rental Businesses
+       ↓
+   NX Rental
+       ↓
+   Customers
+```
+
+---
+
+# 04 — TWO CORE SOLUTIONS
+
+Ye **NX Rental website ka most important section** hoga.
+
+### Heading
+
+# **One Platform. Two Powerful Solutions.**
+
+Do large cards side-by-side.
+
+---
+
+## 🚘 MANAGEMENT SYSTEM
+
+### **Manage Your Rental Business**
+
+> Run your vehicle rental operations from one centralized digital platform.
+
+### Features
+
+* Vehicle Management
+* Customer Management
+* Booking Management
+* Availability Management
+* Rental Records
+* Payment Management
+* Fleet Management
+* Reports & Analytics
+
+### CTA
+
+**Manage Your Business →**
+
+### Visual
+
+Actual NX Rental dashboard screenshot.
+
+---
+
+## 🌐 MARKETPLACE
+
+### **Reach Customers. Get More Visibility.**
+
+> List your rental vehicles and make them discoverable to customers looking for vehicles to rent.
+
+### Customer journey
+
+**Discover → Compare → Check Availability → Book**
+
+### CTA
+
+**Explore Marketplace →**
+
+### Visual
+
+Vehicle listing cards:
+
+* Vehicle image
+* Vehicle name
+* Rental price
+* Location
+* Availability
+* Book button
+
+---
+
+# 05 — FOR RENTAL BUSINESSES
+
+Ab specifically business side explain karenge.
+
+### Heading
+
+# **Run Your Rental Business Smarter**
+
+### Supporting text
+
+> Manage your vehicles, bookings, customers and daily rental operations from one connected system.
+
+### Feature Grid
+
+### Vehicle Management
+
+> Keep your rental vehicles organized and manage their availability.
+
+### Booking Management
+
+> Manage current, upcoming and completed rental bookings.
+
+### Customer Management
+
+> Maintain customer information and rental history.
+
+### Availability Management
+
+> Know which vehicles are available, booked or unavailable.
+
+### Rental Management
+
+> Keep track of vehicle rental activity and operational records.
+
+### Payment Management
+
+> Manage rental payment information and transaction records.
+
+### Fleet Management
+
+> Manage multiple vehicles through a centralized system.
+
+### Reports & Analytics
+
+> Get a clearer view of your rental business and operations.
+
+### Visual
+
+Large dashboard screenshot.
+
+---
+
+# 06 — FOR CUSTOMERS
+
+### Heading
+
+# **Find the Right Vehicle for Your Journey**
+
+### Supporting Text
+
+> Discover rental vehicles from different providers, compare available options and choose the vehicle that fits your needs.
+
+### Customer Journey
+
+```text
+DISCOVER
+   ↓
+EXPLORE
+   ↓
+COMPARE
+   ↓
+CHECK AVAILABILITY
+   ↓
+BOOK
+   ↓
+RENT
+```
+
+### Vehicle Categories
+
+Yahan actual supported categories ke according cards:
+
+🏍️ **Bikes**
+
+🛵 **Scooters**
+
+🚗 **Cars**
+
+🚐 **Other Vehicles**
+
+**Important:** Jo categories actual marketplace par available nahi hain, unko website par claim nahi karna.
+
+### CTA
+
+**Explore Vehicles →**
+
+---
+
+# 07 — HOW NX RENTAL CONNECTS BOTH SIDES
+
+Ye section website ko **bahut genuine aur understandable** banayega.
+
+### Heading
+
+# **Where Rental Businesses Meet Customers**
+
+### Flow
+
+```text
+RENTAL BUSINESS
+       ↓
+ADD / LIST VEHICLES
+       ↓
+NX RENTAL MARKETPLACE
+       ↓
+CUSTOMERS DISCOVER
+       ↓
+CUSTOMER BOOKS
+       ↓
+RENTAL BUSINESS
+MANAGES THE RENTAL
+```
+
+### Supporting line
+
+> NX Rental connects the supply side and demand side of vehicle rental through one digital platform.
+
+Isse marketplace ka actual business model samajh aata hai.
+
+---
+
+# 08 — KEY BENEFITS
+
+### Heading
+
+# **Built for the Complete Rental Journey**
+
+Do columns.
+
+### For Businesses
+
+**Centralized Management**
+Manage rental operations from one place.
+
+**Better Visibility**
+Keep track of your vehicles and bookings.
+
+**Simplified Operations**
+Reduce manual rental management.
+
+**Customer Reach**
+Make your vehicles discoverable through the marketplace.
+
+**Scalable Management**
+Manage multiple vehicles from one ecosystem.
+
+---
+
+### For Customers
+
+**Easy Discovery**
+Find vehicles in one place.
+
+**Multiple Options**
+Explore vehicles from rental providers.
+
+**Availability**
+Check available rental options.
+
+**Simple Booking**
+Move from discovery to rental easily.
+
+---
+
+# 09 — NX RENTAL ECOSYSTEM
+
+Ye optional section hai, lekin mujhe lagta hai **website par rakhna chahiye**, because it shows the complete product.
+
+### Heading
+
+# **Everything Connected in One Ecosystem**
+
+Diagram:
+
+```text
+                 NX RENTAL
+                     │
+       ┌─────────────┴─────────────┐
+       ↓                           ↓
+ MANAGEMENT SYSTEM            MARKETPLACE
+       │                           │
+ Vehicles                     Listings
+ Customers                    Discovery
+ Bookings                     Availability
+ Payments                     Booking
+ Operations                   Customers
+       │                           │
+       └─────────────┬─────────────┘
+                     ↓
+             VEHICLE RENTAL
+                ECOSYSTEM
+```
+
+Iske neeche:
+
+> **Manage your business. List your vehicles. Reach your customers.**
+
+---
+
+# 10 — FINAL CTA
+
+Website ka final conversion section.
+
+### Heading
+
+# **Ready to Make Vehicle Rental Simpler?**
+
+### Supporting Text
+
+> Whether you're running a vehicle rental business or looking for a vehicle to rent, NX Rental brings everything together in one platform.
+
+### 2 CTA Cards
+
+#### 🚗 Looking for a Vehicle?
+
+**Explore Vehicles →**
+
+#### 🏢 Running a Rental Business?
+
+**Join NX Rental →**
+
+---
+
+# 11 — CONTACT
+
+Contact section ko simple rakhenge.
+
+### Heading
+
+# **Let's Connect**
+
+### Business Enquiries
+
+**For Rental Businesses**
+
+Want to list your vehicles or manage your rental operations with NX Rental?
+
+→ **Contact Us**
+
+### Customer Support
+
+Looking for a vehicle or need help with your rental?
+
+→ **Get Support**
+
+Then actual:
+
+📞 Phone
+📧 Email
+📍 Location
+🌐 Website/Social
+
+---
+
+# 12 — FOOTER
+
+### NX RENTAL
+
+> **Complete Vehicle Rental Ecosystem**
+
+**Management System • Marketplace**
+
+### Links
+
+Home | About | Management | Marketplace | Features | Contact
+
+### Company
+
+**A NexisparkX Group Product**
+
+### Bottom
+
+© 2026 NX Rental. All Rights Reserved.
+
+Privacy Policy | Terms & Conditions
+
+---
+
+# 🔥 FINAL WEBSITE FLOW
+
+```text
+01  NAVBAR
+       ↓
+02  HERO
+    Manage Your Rentals.
+    Reach More Customers.
+       ↓
+03  ABOUT NX RENTAL
+    Complete Vehicle Rental Ecosystem
+       ↓
+04  TWO CORE SOLUTIONS
+    MANAGEMENT SYSTEM | MARKETPLACE
+       ↓
+05  FOR RENTAL BUSINESSES
+    Vehicle + Booking + Customer + Operations
+       ↓
+06  FOR CUSTOMERS
+    Discover + Compare + Book
+       ↓
+07  HOW IT CONNECTS
+    Business → NX Rental → Customer
+       ↓
+08  BENEFITS
+       ↓
+09  ECOSYSTEM
+       ↓
+10  FINAL CTA
+       ↓
+11  CONTACT
+       ↓
+12  FOOTER
+```
+
+## 🎯 लेकिन एक बात बहुत important है
+
+**NX Rental की website NX Stay से visually copy नहीं करनी है.**
+
+Structure similar हो सकता है क्योंकि दोनों NX products हैं, लेकिन personality अलग होगी:
+
+### NX Stay
+
+**Accommodation-focused**
+
+> Hostels • PGs • Co-Living
+
+### NX Rental
+
+**Mobility-focused**
+
+> Vehicles • Rentals • Marketplace • Management
+
+NX Rental में visual language naturally:
+
+**Vehicle photography + vehicle cards + map/location elements + dashboard UI + rental journey**
+
+पर आधारित होनी चाहिए।
+
+और website देखते ही सबसे पहले ये तीन बातें समझ आनी चाहिए:
+
+> **1. I can find a vehicle here.**
+> **2. I can run my rental business here.**
+> **3. These two sides are connected by NX Rental.**
+
+**बस यही NX Rental website ka core communication hai.**
