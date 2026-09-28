@@ -137,7 +137,6 @@ function Home() {
   const [requestOpen, setRequestOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [activeCategory, setActiveCategory] = useState('city');
-  const activeVehicle = vehicleCategories.find((category) => category.id === activeCategory) ?? vehicleCategories[0];
 
   const navigate = () => setMenuOpen(false);
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -277,10 +276,6 @@ function Home() {
             <div className="category-picker">
               <div className="category-tabs" role="tablist" aria-label="Vehicle categories">
                 {vehicleCategories.map(({ id, label, icon: Icon }) => <button type="button" role="tab" aria-selected={activeCategory === id} className={activeCategory === id ? 'active' : ''} onClick={() => setActiveCategory(id)} key={id} data-testid={`button-category-${id}`}><Icon size={17} />{label}</button>)}
-              </div>
-              <div className={`category-feature category-feature-${activeVehicle.color}`}>
-                <div className="category-feature-top"><span>AVAILABLE NEAR YOU</span><span className="category-live"><i />LIVE</span></div>
-                <div className="category-feature-bottom"><div><h3>{activeVehicle.label}</h3><p>{activeVehicle.description}</p></div><div className="category-price">{activeVehicle.meta}<ArrowRight size={16} /></div></div>
               </div>
             </div>
           </div>
