@@ -459,11 +459,13 @@ body {
   color: var(--ink);
   font-family: var(--app-font-sans);
   background: var(--paper);
+  overflow: clip;
 }
 
 .nx-container {
   width: min(1180px, calc(100% - 64px));
   margin-inline: auto;
+  min-width: 0;
 }
 
 .nx-header {
@@ -600,6 +602,7 @@ body {
 .section-label {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   color: var(--teal);
   font-family: var(--app-font-mono);
