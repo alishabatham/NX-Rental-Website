@@ -16,11 +16,11 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-
+const distPath = path.join(__dirname, 'dist');
 // Middleware
 app.use(cors());
 app.use(express.json());
-
+app.use(express.static(distPath));
 // MongoDB Connection
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://alishabatham2_db_user:alishabatham2004@cluster0.upabs4c.mongodb.net/nx-rental?appName=Cluster0';
 
@@ -237,6 +237,14 @@ app.get('/api/inquiries', async (req, res) => {
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });
   }
+});
+
+app.use((req, res, next) => {
+  if (req.method === 'GET' && !req.path.startsWith('/api')) {
+    return res.sendFile(path.join(distPath, 'index.html'));
+  }
+
+  next();
 });
 
 // Start Server
